@@ -1,0 +1,191 @@
+body {
+	background-color: lightgreen; !important;
+	/*background-image: url("./image.jpeg");
+	background-repeat: no-repeat;
+	width: 100%;*/
+	margin: 10px
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: skyblue;
+  }
+}
+#Heading{
+		text-align: center;
+		/*background-color: Violet*/
+		text-transform: uppercase;
+		  text-shadow: 2px 2px 5px red;
+}
+#link {
+	color: red;
+}
+.address{
+	color: red;
+}
+.para{
+	 border-right: 6px solid red;
+  background-color: lightgrey;
+  border-radius: 20px
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+
+
+	.button {
+	    display: block;
+	   width: 200px;
+	    background: Slateblue;
+	    padding: 10px;
+	    text-align: center;
+	    border-radius: 5px;
+	    color: white;
+	    font-weight: bold;
+	    line-height: 25px;
+	}
+	table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+input[type=text], input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , yellow);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.master {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+    position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.master p{
+	transform: rotate(180deg);
+}
+.master:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: auto;%
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  font-size: 70px;
+  font-weight: 700;
+  top: 50%;
+  left: 50%;
+  color: orangered;
+  transform: translate(-50%, -50%);
+}
+
+ul.b {
+  list-style-position: inside;
+}
